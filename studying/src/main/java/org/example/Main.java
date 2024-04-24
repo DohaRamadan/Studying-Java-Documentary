@@ -7,14 +7,13 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeoutException;
 
 public class Main {
-    public static void main(String[] args) throws ExecutionException, InterruptedException, TimeoutException {
-        // Comparing and Comparable
-//        List<Employee> l = Arrays.asList(new Employee(2, "Mohamed"), new Employee(0, "Yassin"));
-//        Comparator<Employee> comp = Comparator.comparing(Employee::getName);
-//        l.sort(comp);
+    public static void main(String[] args) {
+//        ExecutorServices.FutureInterface();
 
-        ExecutorServices ex = new ExecutorServices();
-        ex.FutureInterface();
-
+//        Localisation.differentWaysToCreateLocale();
+//        Localisation.formatNumbers();
+//        Localisation.formatCurrencies();
+//        Localisation.customFormats();
+//        Localisation.localisingDates();
     }
 }

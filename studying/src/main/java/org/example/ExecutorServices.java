@@ -10,7 +10,7 @@ import java.util.concurrent.TimeoutException;
 
 public class ExecutorServices {
 
-    public void differentMethods(){
+    public static void differentMethods(){
         // create threads as needed and kill them as you go
         ExecutorService ex = Executors.newCachedThreadPool();
 
@@ -21,7 +21,7 @@ public class ExecutorServices {
         ExecutorService ex3 = Executors.newFixedThreadPool(10);
     }
 
-    public void FutureInterface() throws InterruptedException, TimeoutException {
+    public static void FutureInterface() throws InterruptedException, TimeoutException {
         ExecutorService ex = Executors.newSingleThreadExecutor();
         Future<String> f = ex.submit(() -> "Im a string");
         try{
